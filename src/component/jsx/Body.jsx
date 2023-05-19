@@ -1,34 +1,11 @@
 import React from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 import "../styles/body.css";
 import { useState, useEffect } from "react";
 
 const Body = () => {
-  {
-    /** 
-  const elementspan = document.querySelectorAll("span");
-  const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.4,
-  };
-  const callbacks = (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      }
-    });
-  };
-  let observer = new IntersectionObserver(callbacks, options);
-  elementspan.forEach((elementspan) => {
-    observer.observe(elementspan);
-  });
-*/
-  }
   return (
     <div className="myspan">
-      <span num={1}>In </span>
+      <span>In </span>
       <span num2={2}>Chronicle </span>everything <span>is </span>
       <span>made </span>
       <br />
